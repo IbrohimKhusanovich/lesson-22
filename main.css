@@ -12,6 +12,13 @@
 .navbar1 {
   padding: 5px 12%;
   align-items: center;
+  background-color: #fff;
+}
+.fixed-site{
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0rem;
 }
 .navbar-text1 {
   text-decoration: none;
@@ -51,6 +58,9 @@
   color: #000;
   margin-left: 1rem;
 }
+.nav-btn{
+  display: none;
+}
 .navbar-btn3 {
   text-decoration: none;
   color: #fff;
@@ -78,6 +88,7 @@
 .section1 {
   padding: 8px 12%;
   display: flex;
+  margin-top: 7rem;
 }
 .section1-text1 {
   font-size: 77px;
@@ -429,10 +440,10 @@
   right: 12rem;
   margin-left: 1rem;
 }
-.section6-ancer:hover{
+.section6-ancer:hover {
   color: #2b7c00;
 }
-.section6-ancer2{
+.section6-ancer2 {
   text-decoration: none;
   color: #2b7c00;
   font-size: 20px;
@@ -443,41 +454,42 @@
   top: 10rem;
   border: #6fda44 1px solid;
 }
-.section7-box{
+.section7-box {
   display: grid;
   justify-content: center;
   grid-template-columns: 300px 300px 300px 300px;
   grid-template-rows: 50px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
 }
-.section7{
+.section7 {
   background-color: #1d4354;
   margin-top: 8rem;
   padding-top: 3rem;
   color: #fff;
 }
-.section7-ancer{
+.section7-ancer {
   color: #fff;
   font-weight: 600;
   cursor: pointer;
 }
-.section7-ancer:hover{
+.section7-ancer:hover {
   text-decoration: underline;
 }
-.section7-logos{
+.section7-logos {
   display: flex;
   justify-content: center;
   padding: 1rem 10.5%;
 }
-.section7-logo1,.section7-logo2{
+.section7-logo1,
+.section7-logo2 {
   display: flex;
   padding: 10px 0;
   align-items: center;
-  border-top: solid 1px #2B5468;
-  border-bottom: solid 1px #2B5468;
+  border-top: solid 1px #2b5468;
+  border-bottom: solid 1px #2b5468;
 }
-.fab{
+.fab {
   margin-left: 1rem;
-  background-color: #2B5468;
+  background-color: #2b5468;
   border-radius: 50%;
   padding: 7px 0px;
   padding-left: 8px;
@@ -485,30 +497,30 @@
   height: 30px;
   cursor: pointer;
 }
-.section7-fab2{
-  background-color: #2B5468;
-  padding:7px 9px ;
+.section7-fab2 {
+  background-color: #2b5468;
+  padding: 7px 9px;
   cursor: pointer;
   width: 18%;
   border-radius: 50%;
   margin-left: 1rem;
 }
-.section7-text1{
-  margin-top: .5rem;
+.section7-text1 {
+  margin-top: 0.5rem;
 }
-.end-text{
+.end-text {
   display: flex;
   padding: 0 10.5%;
 }
-.section7-end2{
+.section7-end2 {
   text-decoration: none;
   color: #fff;
   margin-left: 3rem;
 }
-.section7-end2:hover{
+.section7-end2:hover {
   text-decoration: underline;
   color: #fff;
 }
-.sec-media{
+.sec-media {
   text-decoration: none;
 }
